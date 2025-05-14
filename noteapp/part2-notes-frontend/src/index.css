@@ -1,0 +1,67 @@
+/* Yleiset tyylit */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;  /* Vaaleanharmaa tausta */
+  color: #333;  /* Tumma teksti */
+  margin: 0;
+  padding: 0;
+}
+
+/* Päivitetään h1-tyyli */
+h1 {
+  color: green;
+  font-style: italic;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Note-luokan tyyli */
+.note {
+  color: grey;
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  background-color: white;  /* Valkoinen tausta */
+  border: 1px solid #ddd;  /* Vaalea reunus */
+  border-radius: 5px;
+}
+
+/* Virheviestien tyyli */
+.error {
+  color: red;
+  background-color: #f8d7da;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Lomakkeen tyyli */
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Pieni varjo */
+}
+
+/* Lomakkeiden ja napin tyyli */
+input, button {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
